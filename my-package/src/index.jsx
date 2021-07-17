@@ -1,30 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {ArticleContainer} from "./Components/ArticleContainer";
+import {Title} from "./Components/Title";
+import {Paragraph} from "./Components/Paragraph";
+import EnNegrita from "./Components/EnNegrita";
+import DeColorRojo from "./Components/DeColorRojo";
 
 
 
-function ArticleContainer(props) {
-  return <div>
-    {props.children}</div>
-}
 
-function Title(props) {
-  return <h1>{props.children}</h1>;
-} 
 
-function Paragraph(props) {
-  return <p>
-    {props.children}</p>
-}
 
-function EnNegrita(props) {
-  return <p>{props.children}</p>
-}
-
-function DeColorRojo(props) {
-  return <p style= {{fontStyle: 'italic', color: 'red'}} >
-    {props.children}</p>
-}
 
 function App() {
    // Uso del componente Title con el valor "Hola Mundo!"
