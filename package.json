@@ -1,0 +1,14 @@
+{
+  "name": "my_package",
+  "version": "1.0.0",
+  "description": "react_app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
